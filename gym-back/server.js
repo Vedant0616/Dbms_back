@@ -8,7 +8,7 @@ const branch_manager = db.branch_manager;
 const workout = db.workout;
 const member = db.member;
 var corsOptions = {
-    origin: "http://localhost:8081"
+    origin: "https://dbms-front-uc9z-git-main-vedant0616.vercel.app/"
 };
 app.use(cors(corsOptions));
 // parse requests of content-type - application/json
