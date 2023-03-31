@@ -1,8 +1,8 @@
 const dbConfig = require('../config/db.config.js');
 const { Sequelize } = require('sequelize');
 console.log(dbConfig);
-const sequelize = new Sequelize('gym', 'root', dbConfig.PASSWORD, {
-    host: 'localhost',
+const sequelize = new Sequelize('sql12610090', 'sql12610090', dbConfig.PASSWORD, {
+    host: 'sql12.freesqldatabase.com',
     dialect: 'mysql',
 });
 
