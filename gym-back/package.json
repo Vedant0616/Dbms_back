@@ -1,0 +1,38 @@
+{
+  "name": "nodejs-express-sequelize-mysql",
+  "version": "1.0.0",
+  "description": "Gym Management System",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/p3Xxer/Gym-Management-System.git"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "sequelize",
+    "mysql",
+    "rest",
+    "api"
+  ],
+  "author": "Khushil Kataria",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/p3Xxer/Gym-Management-System/issues"
+  },
+  "homepage": "https://github.com/p3Xxer/Gym-Management-System#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "crypto-js": "^4.1.1",
+    "express": "^4.17.3",
+    "jsonwebtoken": "^8.5.1",
+    "mysql2": "^2.3.3",
+    "nodemon": "^2.0.22",
+    "sequelize": "^6.18.0"
+  }
+}
